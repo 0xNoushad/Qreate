@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import "./Main.scss"
 import MobileMain from './mainResponsive/mobileMain/MobileMain';
 import TabletMain from './mainResponsive/tabletMain/TabletMain';
