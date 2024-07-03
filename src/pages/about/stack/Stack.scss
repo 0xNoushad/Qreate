@@ -1,0 +1,52 @@
+$color_1: var(--nav-overlay-color);
+$background-color_1: var(--stack-icons-background-color);
+
+.stack {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 20%;
+}
+.stack__container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	padding: 0 1.25rem;
+}
+.stack__icons {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	width: 100%;
+	height: 100%;
+	padding: 0rem;
+	font-size: 5rem;
+	margin: 0rem;
+	gap: 3rem;
+	color: $color_1;
+	i {
+		font-size: 4rem;
+		margin: 0 2rem;
+	}
+}
+@media (max-width: 480px) {
+
+	.stack__icons_mobile {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		width: 100%;
+		height: 100%;
+		padding: 0rem;
+		margin: 0rem;
+		gap: 1rem;
+		color: $color_1;
+	}
+}
