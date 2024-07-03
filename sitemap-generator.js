@@ -8,7 +8,7 @@ const Sitemap = require("react-router-sitemap").default;
 function generateSitemap() {
     return (
         new Sitemap(router)
-            .build("#")
+            .build("https://0xnoushad.github.io/Qreate/")
             .save("./public/sitemap.xml")
     );
 }
